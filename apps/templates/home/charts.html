@@ -193,7 +193,7 @@
 		var myBarChart = new Chart(barChart, {
 			type: 'bar',
 			data: {
-				labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+				labels: ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"],
 				datasets : [{
 					label: "Sales",
 					backgroundColor: 'rgb(23, 125, 255)',
@@ -218,11 +218,11 @@
 			type: 'pie',
 			data: {
 				datasets: [{
-					data: [50, 35, 15],
-					backgroundColor :["#1d7af3","#f3545d","#fdaf4b"],
+					data: [50, 35],
+					backgroundColor :["#1d7af3","#f3545d"],
 					borderWidth: 0
 				}],
-				labels: ['New Visitors', 'Subscribers', 'Active Users'] 
+				labels: ['Male', 'Female'] 
 			},
 			options : {
 				responsive: true, 
@@ -258,13 +258,12 @@
 			data: {
 				datasets: [{
 					data: [10, 20, 30],
-					backgroundColor: ['#f3545d','#fdaf4b','#1d7af3']
+					backgroundColor: ['#f3545d','#fdaf4b']
 				}],
 
 				labels: [
-				'Red',
-				'Yellow',
-				'Blue'
+				'Public',
+				'Private'
 				]
 			},
 			options: {
@@ -287,9 +286,9 @@
 		var myRadarChart = new Chart(radarChart, {
 			type: 'radar',
 			data: {
-				labels: ['Running', 'Swimming', 'Eating', 'Cycling', 'Jumping'],
+				labels: ['12 & below', '13', '14', '15 & 16', '17 & 18', '19 & above'],
 				datasets: [{
-					data: [20, 10, 30, 2, 30],
+					data: [20, 10, 30, 26, 30, 36],
 					borderColor: '#1d7af3',
 					backgroundColor : 'rgba(29, 122, 243, 0.25)',
 					pointBackgroundColor: "#1d7af3",
@@ -297,7 +296,7 @@
 					pointRadius: 3,
 					label: 'Team 1'
 				}, {
-					data: [10, 20, 15, 30, 22],
+					data: [10, 20, 15, 30, 22, 30],
 					borderColor: '#716aca',
 					backgroundColor: 'rgba(113, 106, 202, 0.25)',
 					pointBackgroundColor: "#716aca",
